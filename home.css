@@ -1,0 +1,30 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+.navbar {
+    display: flex;
+    background-color: green;
+    height: 70px;
+    justify-content: space-between;
+}
+#logo{
+    padding: 10px;
+    color: white;
+    height: 50px;
+}
+.nav-items ul{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding: 10px;
+
+}
+.nav-items li{
+    list-style: none;
+}
+.nav-items a{
+    color: white;
+    text-decoration: none;
+    transition: 0.2s;
+}
