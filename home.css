@@ -1,6 +1,7 @@
 body{
     margin: 0;
     padding: 0;
+    background-color: black;
 }
 .navbar {
     display: flex;
@@ -18,6 +19,7 @@ body{
     justify-content: center;
     gap: 20px;
     padding: 10px;
+    padding-right: 70px;
 
 }
 .nav-items li{
@@ -27,4 +29,9 @@ body{
     color: white;
     text-decoration: none;
     transition: 0.2s;
+}
+.banner{
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
