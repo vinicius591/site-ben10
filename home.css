@@ -2,6 +2,7 @@ body{
     margin: 0;
     padding: 0;
     background-color: black;
+    height: 1000px;
 }
 .navbar {
     display: flex;
@@ -25,7 +26,7 @@ body{
     list-style: none;
 }
 .links{
-    color: rgb(255, 255, 255);
+    color: white;
     display: inline-block;
     text-decoration: none;
     padding: 5px;
@@ -39,11 +40,15 @@ body{
 
 }
 .paragrafo1{
-    height: 200px;
+    margin: 70px;
+    padding: 20px;
+    border-radius: 20px;
     display: flex;
+    background: green;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     text-align: center;
-    color: white;
+    text-shadow: -1px -1px 5px black;
+    color: rgb(255, 255, 255);
 }
