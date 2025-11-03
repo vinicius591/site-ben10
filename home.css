@@ -26,16 +26,25 @@ body{
     list-style: none;
 }
 .links{
-    color: rgb(27, 2, 2);
+    color: rgb(255, 255, 255);
     display: inline-block;
     text-decoration: none;
     padding: 5px;
     border-radius: 10px;
-    transition: transform 0.2s ease, color 0.2s ease , background 1s ease;
+    transition: 0.2s
 }
 .links:hover{
     transform: scale(1.2);
     color: #504f4f;
     background: white;
 
+}
+.paragrafo1{
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: white;
 }
