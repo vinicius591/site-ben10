@@ -1,8 +1,18 @@
-body{
+@import url('https://fonts.googleapis.com/css2?family=Google+Sans+Code:ital,wght@0,300..800;1,300..800&display=swap');
+
+html, body{
+    height: 1000px;
+    display: flex;
+    flex-direction: column;
     margin: 0;
     padding: 0;
     background-color: black;
 }
+
+main {
+    flex: 1;
+}
+
 .navbar {
     display: flex;
     background-color: green;
@@ -38,8 +48,10 @@ body{
     background: white;
 
 }
-.paragrafo1{
+section{
     margin: 70px;
+}
+.paragrafo1{
     padding: 20px;
     border-radius: 20px;
     display: flex;
@@ -51,11 +63,24 @@ body{
     text-shadow: -1px -1px 5px black;
     color: rgb(255, 255, 255);
 }
+#botoes{
+    display: grid;
+    grid-template-columns: 2fr 2fr;
+    justify-content: center;
+    /* align-items: center; */
+}
+section img, img{
+    height: 40%;
+}
 footer{
     background-color: green;
     color: black;
     text-align: center;
-    padding: 20px;
-    font-family: Arial, sans-serif;
-    width: 100vw;
+    padding: 10px 0;
+    font-family: Arial;
+    width: 100%;
+}
+#Navegue{
+    color: green;
+    font-family: arial;
 }
