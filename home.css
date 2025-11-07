@@ -1,7 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Google+Sans+Code:ital,wght@0,300..800;1,300..800&display=swap');
 
-html, body{
-    height: 1000px;
+body{
     display: flex;
     flex-direction: column;
     margin: 0;
@@ -11,6 +10,12 @@ html, body{
 
 main {
     flex: 1;
+}
+span {
+    display: inline-block;
+    background-color: green;
+    width:100vw;
+    height: 3px;
 }
 
 .navbar {
@@ -68,9 +73,15 @@ section{
     grid-template-columns: 2fr 2fr;
     justify-content: center;
     /* align-items: center; */
+
 }
-section img, img{
+section img:hover{
+    transform: scale(1.1);
+
+}
+section img{
     height: 40%;
+    transition: transform 0.5s ease;
 }
 footer{
     background-color: green;
@@ -83,4 +94,5 @@ footer{
 #Navegue{
     color: green;
     font-family: arial;
+    margin: 70px;
 }
