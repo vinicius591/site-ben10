@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Google+Sans+Code:ital,wght@0,300..800;1,300..800&display=swap');
+
+body{
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    padding: 0;
+    background-color:#000000;
+}
+
+main {
+    flex: 1;
+}
+span {
+    display: inline-block;
+    background-color: green;
+    width:100vw;
+    height: 3px;
+}
+
+.navbar {
+    display: flex;
+    background-color: green;
+    justify-content: space-around;
+    align-items: center;
+}
+#logo{
+    padding: 10px;
+    color: white;
+    height: 70px;
+}
+.nav-items ul{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding: 10px;
+
+}
+.nav-items li{
+    list-style: none;
+}
+.links{
+    color: white;
+    display: inline-block;
+    text-decoration: none;
+    padding: 5px;
+    border-radius: 10px;
+    transition: 0.2s
+}
+.links:hover{
+    transform: scale(1.2);
+    color: #504f4f;
+    background: white;
+
+}
+section{
+    margin: 70px;
+}
+.paragrafo1{
+    padding: 20px;
+    border-radius: 20px;
+    display: flex;
+    background: green;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    text-shadow: -1px -1px 5px black;
+    color: rgb(255, 255, 255);
+}
+#botoes{
+    display: grid;
+    grid-template-columns: 2fr 2fr;
+    justify-content: center;
+    /* align-items: center; */
+
+}
+section img:hover{
+    transform: scale(1.1);
+
+}
+section img{
+    height: 40%;
+    transition: transform 0.5s ease;
+}
+footer{
+    background-color: #008000;
+    color: black;
+    text-align: center;
+    padding: 10px 0;
+    font-family: Arial;
+    width: 100%;
+}
+#Navegue{
+    color: green;
+    font-family: arial;
+    margin: 70px;
+}
+
+    
