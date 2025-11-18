@@ -1,10 +1,10 @@
 /* linah do tempo */
 body{
-    background-color: #A9A9A9;
+    background-color: #000000;
 
 }
 .parafranquia{
-    margin: 0 150px;
+    margin: 0 270px;
     padding: 20px;
     /* border-radius: 20px; */
     display: flex;
@@ -27,11 +27,13 @@ main p{
 
 .texto-img {
     padding: 20px 160px;
+    font-size: 20px;
     text-align: justify;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
+
 }
 .parafranquia{
   padding: 20px 160px;
